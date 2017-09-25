@@ -16,4 +16,8 @@ D:\GitHub\WT\Windows\ffmpeg\ffmpeg.exe -f gdigrab -video_size 600x480 -offset_x 
 D:\GitHub\WT\Windows\ffmpeg\ffmpeg.exe -f gdigrab -video_size 600x480 -offset_x 100 -offset_y 60 -t 20 -r 15 -i desktop -vcodec libx264 x264.mp4
 
 
-D:\GitHub\WT\Windows\ffmpeg\ffmpeg.exe -f gdigrab -video_size 600x480 -offset_x 100 -offset_y 60 -t 20 -r 15 -i desktop -vcodec libx264 -preset ultrafast -acodec libfaac -f flv rtmp://push.ybxin.net/tuyunwx/abc
+D:\GitHub\WT\Windows\ffmpeg\ffmpeg.exe -f gdigrab -video_size 600x480 -offset_x 100 -offset_y 60 -t 20 -r 150 -i desktop -vcodec libx264 -preset ultrafast -acodec libfaac -f flv rtmp://push.ybxin.net/tuyunwx/abc
+
+G:\ffmpeg\ffmpeg\ffmpeg.exe -f gdigrab -video_size 600x480 -offset_x 100 -offset_y 60 -t 20 -r 150 -i desktop -vcodec libx264 -preset ultrafast -acodec libfaac -f flv rtmp://push.ybxin.net/tuyunwx/abc
+
+http://play.ybxin.net/tuyunwx/abc.m3u8
